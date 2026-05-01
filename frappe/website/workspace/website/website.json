@@ -234,7 +234,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-05-24 14:47:23.879036",
+ "modified": "2026-04-08 11:05:06.142289",
  "modified_by": "Administrator",
  "module": "Website",
  "name": "Website",
@@ -244,8 +244,18 @@
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
- "roles": [],
- "sequence_id": 14.0,
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "Website Manager"
+  }
+ ],
+ "sequence_id": 19.0,
  "shortcuts": [
   {
    "color": "Green",
